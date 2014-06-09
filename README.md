@@ -1,4 +1,4 @@
-# GregParks.la(http://gregparks.la/)
+# GregParks.la
 
 This is a HTML5 application, built with [Brunch](http://brunch.io), [Backbone](http://backbonejs.org/), [Underscore](http://underscorejs.org/), [Stylus](http://learnboost.github.io/stylus/)
 
