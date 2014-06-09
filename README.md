@@ -1,6 +1,6 @@
-# Brunch app
+# GregParks.la
 
-This is HTML5 application, built with [Brunch](http://brunch.io).
+This is a HTML5 application, built with [Brunch](http://brunch.io), [Backbone](http://backbonejs.org/), [Underscore](http://underscorejs.org/), [Stylus](http://learnboost.github.io/stylus/)
 
 ## Getting started
 * Install (if you don't have them):
