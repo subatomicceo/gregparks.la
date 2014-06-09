@@ -1,0 +1,51 @@
+.home
+	color white
+	background url(../img/nebula.jpg) no-repeat center center fixed
+	background-size cover
+
+	.btn
+		background rgba(255,255,255,0.3)
+		width 200px
+		height 50px
+		color #FFF
+		font-size 20px
+		cursor pointer
+		font 150% Futura-Medium, Futura, sans-serif
+		text-align center
+		position absolute
+		left 50%
+		top 50%
+		margin-left -100px
+		margin-top -25px
+		span
+			line-height 50px
+		svg
+			position absolute
+			top 0
+			left 0
+			line
+				stroke-width 10
+				stroke #FFF
+				fill none
+				stroke-dasharray 200
+				-webkit-transition -webkit-transform .6s ease-out
+				transition transform .6s ease-out
+
+		&:hover
+			svg
+				line
+					&.top
+						-webkit-transform translateX(-400px)
+						transform translateX(-400px)
+					&.bottom
+						-webkit-transform translateX(400px)
+						transform translateX(400px)
+					&.left
+						-webkit-transform translateY(400px)
+						transform translateY(400px)
+					&.right
+						-webkit-transform translateY(-400px)
+						transform translateY(-400px)
+
+
+
